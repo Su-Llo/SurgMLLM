@@ -1,0 +1,19 @@
+SurgMLLM
+Copyright 2026 SurgMLLM contributors
+
+This product includes software developed by third parties:
+
+* The project layout and the training/conversion lineage are derived from
+  ByteDance Seed's Sa2VA project, distributed under Apache License 2.0.
+* The vendored SAM2 Hiera and mask-decoder implementation is Copyright
+  Meta Platforms, Inc. and affiliates, distributed under Apache License 2.0.
+* The InternVL2.5 remote model code is Copyright OpenGVLab and is distributed
+  under the MIT License; see `LICENSE_InternVL`. Model weights remain subject
+  to their upstream terms.
+* The conversation template code is derived from LMSYS FastChat and is
+  distributed under Apache License 2.0.
+* MMEngine and MMDetection are Copyright OpenMMLab and are distributed under
+  Apache License 2.0. MMEngine is a runtime dependency; no MMDetection source
+  is vendored in this repository.
+
+The full attribution and source mapping is documented in THIRD_PARTY.md.

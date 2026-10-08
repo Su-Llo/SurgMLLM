@@ -1,0 +1,49 @@
+# Local environments and secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+build/
+dist/
+*.log
+*.pid
+*.tmp
+*.swp
+.DS_Store
+
+# Private datasets and model weights
+/data/
+/models/
+/pretrained/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Runtime artifacts
+/work_dirs/
+/predictions/
+/outputs/
+/metrics/
+/visualizations/
+/logs/
+/wandb/
+last_checkpoint
+
+# Native extension caches
+*.so
+*.o
+.cache/

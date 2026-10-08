@@ -1,0 +1,24 @@
+"""Text tokens used by the surgical grounded-caption protocol."""
+
+SEG_TOKEN = "[SEG]"
+PHRASE_START_TOKEN = "<p>"
+PHRASE_END_TOKEN = "</p>"
+THINK_START_TOKEN = "<think>"
+THINK_END_TOKEN = "</think>"
+ANSWER_START_TOKEN = "<answer>"
+ANSWER_END_TOKEN = "</answer>"
+
+SPECIAL_TOKENS = (
+    SEG_TOKEN,
+    PHRASE_START_TOKEN,
+    PHRASE_END_TOKEN,
+    THINK_START_TOKEN,
+    THINK_END_TOKEN,
+    ANSWER_START_TOKEN,
+    ANSWER_END_TOKEN,
+)
+DEFAULT_SPECIAL_TOKENS = SPECIAL_TOKENS
+NUM_SPECIAL_TOKENS = 7
+
+assert len(SPECIAL_TOKENS) == NUM_SPECIAL_TOKENS
+

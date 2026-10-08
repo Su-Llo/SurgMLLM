@@ -1,0 +1,157 @@
+[
+  {
+    "video_id": "SYNTHETIC_VIDEO",
+    "frame_id": "000000",
+    "file_name": "synthetic_video/frame_000.png",
+    "height": 4,
+    "width": 4,
+    "caption": "<think>The grasper may retract the gallbladder in this synthetic scene.</think> During the preparation phase, the grasper performs retract on the gallbladder.",
+    "expected_canonical_text": "<think>\nThe grasper may retract the gallbladder in this synthetic scene.\n</think>\n<answer>\nDuring the preparation phase, the <p> grasper </p> [SEG] performs retract on the <p> gallbladder </p> [SEG].\n</answer>",
+    "labels": {
+      "phase": ["preparation"],
+      "instrument": ["grasper"],
+      "verb": ["retract"],
+      "target": ["gallbladder"]
+    },
+    "groundings": {
+      "instrument:grasper": {
+        "role": "instrument",
+        "label": "grasper",
+        "token_positives": [114, 121],
+        "mask_path": "synthetic_masks/frame_000_instrument.json",
+        "mask": [[1, 1, 0, 0], [1, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+      },
+      "target:gallbladder": {
+        "role": "target",
+        "label": "gallbladder",
+        "token_positives": [146, 157],
+        "mask_path": "synthetic_masks/frame_000_target.json",
+        "mask": [[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 0, 0, 0]]
+      }
+    }
+  },
+  {
+    "video_id": "SYNTHETIC_VIDEO",
+    "frame_id": "000001",
+    "file_name": "synthetic_video/frame_001.png",
+    "height": 4,
+    "width": 4,
+    "caption": "<think>The grasper may retract the gallbladder in this synthetic scene.</think> During the preparation phase, the grasper performs retract on the gallbladder.",
+    "expected_canonical_text": "<think>\nThe grasper may retract the gallbladder in this synthetic scene.\n</think>\n<answer>\nDuring the preparation phase, the <p> grasper </p> [SEG] performs retract on the <p> gallbladder </p> [SEG].\n</answer>",
+    "labels": {
+      "phase": ["preparation"],
+      "instrument": ["grasper"],
+      "verb": ["retract"],
+      "target": ["gallbladder"]
+    },
+    "groundings": {
+      "instrument:grasper": {
+        "role": "instrument",
+        "label": "grasper",
+        "token_positives": [114, 121],
+        "mask_path": "synthetic_masks/frame_001_instrument.json",
+        "mask": [[1, 1, 0, 0], [1, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+      },
+      "target:gallbladder": {
+        "role": "target",
+        "label": "gallbladder",
+        "token_positives": [146, 157],
+        "mask_path": "synthetic_masks/frame_001_target.json",
+        "mask": [[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 0, 0, 0]]
+      }
+    }
+  },
+  {
+    "video_id": "SYNTHETIC_VIDEO",
+    "frame_id": "000002",
+    "file_name": "synthetic_video/frame_002.png",
+    "height": 4,
+    "width": 4,
+    "caption": "<think>The grasper may retract the gallbladder in this synthetic scene.</think> During the preparation phase, the grasper performs retract on the gallbladder.",
+    "expected_canonical_text": "<think>\nThe grasper may retract the gallbladder in this synthetic scene.\n</think>\n<answer>\nDuring the preparation phase, the <p> grasper </p> [SEG] performs retract on the <p> gallbladder </p> [SEG].\n</answer>",
+    "labels": {
+      "phase": ["preparation"],
+      "instrument": ["grasper"],
+      "verb": ["retract"],
+      "target": ["gallbladder"]
+    },
+    "groundings": {
+      "instrument:grasper": {
+        "role": "instrument",
+        "label": "grasper",
+        "token_positives": [114, 121],
+        "mask_path": "synthetic_masks/frame_002_instrument.json",
+        "mask": [[1, 1, 0, 0], [1, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+      },
+      "target:gallbladder": {
+        "role": "target",
+        "label": "gallbladder",
+        "token_positives": [146, 157],
+        "mask_path": "synthetic_masks/frame_002_target.json",
+        "mask": [[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 0, 0, 0]]
+      }
+    }
+  },
+  {
+    "video_id": "SYNTHETIC_VIDEO",
+    "frame_id": "000003",
+    "file_name": "synthetic_video/frame_003.png",
+    "height": 4,
+    "width": 4,
+    "caption": "<think>The grasper may retract the gallbladder in this synthetic scene.</think> During the preparation phase, the grasper performs retract on the gallbladder.",
+    "expected_canonical_text": "<think>\nThe grasper may retract the gallbladder in this synthetic scene.\n</think>\n<answer>\nDuring the preparation phase, the <p> grasper </p> [SEG] performs retract on the <p> gallbladder </p> [SEG].\n</answer>",
+    "labels": {
+      "phase": ["preparation"],
+      "instrument": ["grasper"],
+      "verb": ["retract"],
+      "target": ["gallbladder"]
+    },
+    "groundings": {
+      "instrument:grasper": {
+        "role": "instrument",
+        "label": "grasper",
+        "token_positives": [114, 121],
+        "mask_path": "synthetic_masks/frame_003_instrument.json",
+        "mask": [[1, 1, 0, 0], [1, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+      },
+      "target:gallbladder": {
+        "role": "target",
+        "label": "gallbladder",
+        "token_positives": [146, 157],
+        "mask_path": "synthetic_masks/frame_003_target.json",
+        "mask": [[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 0, 0, 0]]
+      }
+    }
+  },
+  {
+    "video_id": "SYNTHETIC_VIDEO",
+    "frame_id": "000004",
+    "file_name": "synthetic_video/frame_004.png",
+    "height": 4,
+    "width": 4,
+    "caption": "<think>The grasper may retract the gallbladder in this synthetic scene.</think> During the preparation phase, the grasper performs retract on the gallbladder.",
+    "expected_canonical_text": "<think>\nThe grasper may retract the gallbladder in this synthetic scene.\n</think>\n<answer>\nDuring the preparation phase, the <p> grasper </p> [SEG] performs retract on the <p> gallbladder </p> [SEG].\n</answer>",
+    "labels": {
+      "phase": ["preparation"],
+      "instrument": ["grasper"],
+      "verb": ["retract"],
+      "target": ["gallbladder"]
+    },
+    "groundings": {
+      "instrument:grasper": {
+        "role": "instrument",
+        "label": "grasper",
+        "token_positives": [114, 121],
+        "mask_path": "synthetic_masks/frame_004_instrument.json",
+        "mask": [[1, 1, 0, 0], [1, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+      },
+      "target:gallbladder": {
+        "role": "target",
+        "label": "gallbladder",
+        "token_positives": [146, 157],
+        "mask_path": "synthetic_masks/frame_004_target.json",
+        "mask": [[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 0, 0, 0]]
+      }
+    }
+  }
+]
